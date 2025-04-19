@@ -19,7 +19,7 @@
 
 1. **Nginx (frontend)**
    * Последняя версия.
-   * Отдаёт одну HTML-страницу (`index.html`) с текстом "hello world".
+   * Отдаёт одну HTML-страницу (`/front/html/index.html`) по корневому URL.
    * Проксирует запросы на `/api` к бэкенду.
 
 2. **Node.js (backend)**
